@@ -1,0 +1,58 @@
+Frontend webalkalmazás fejlesztése
+A feladat célja egy Vue.js alapú weboldal elkészítése a megadott specifikáció és minta alapján. A megoldás során az alábbi technológiák használata szükséges:
+
+HTML / CSS / JavaScript
+REST API kliens
+Frontend keretrendszer (Vue.js, Svelte, React, Angular)
+Adatfájl letöltése
+
+A feladat megoldásához kattints ide a data.json letöltéséhez
+
+1. Előkészítés és függőségek
+A projekt az alábbi függőségeket tartalmazza:
+
+oldalak közötti navigációt
+bootstrap, tailwind, semanticUI (stílusokhoz)
+store-ok használata (REST API kezeléséhez)
+használjon állapotkezelést
+json-server (tesztadatok biztosításához)
+A JSON-alapú REST API elindításához futtassa az alábbi parancsot a projekt mappájában:
+
+
+npx json-server --watch data.json
+A kliensoldali alkalmazás teszteléséhez használja a következő parancsot:
+
+
+npm run dev
+A weblap alapértelmezett elérési útja: http://localhost:5173
+
+2. Projekt struktúra és előkészítés
+A fejlesztés megkezdése előtt:
+
+Távolítsa el a forrásból a felesleges komponenseket és formázásokat.
+Bizonyos komponensek átnevezhetők és felhasználhatók a megoldás során.
+Győződjön meg róla, hogy a stílusokhoz használt osztályok elérhetők a komponensek számára.
+3. Oldalak és funkcionalitás
+Kezdőlap (/)
+A kezdőlapon egy rövid tájékoztató jelenik meg a megadott minta alapján.
+A navigáció egy külön komponensként valósul meg.
+A navigációs linkek az alábbi oldalakra mutatnak:
+/ (Kezdőlap)
+/books (Könyvek oldal)
+Minta:Kezdőlap minta
+
+Könyvek oldal (/books)
+A „Könyvek” hivatkozásra kattintva a REST API-ból lekért adatok alapján a következő tartalom jelenik meg:
+
+Könyv címe
+A könyv borítója (a REST API által szolgáltatott URL alapján)
+Az adatokat a következő végpont szolgáltatja:
+
+
+GET http://localhost:3000/books
+Az előbbi mintán valamennyi könyvről csak a címe és a REST alkalmazás által szolgáltatott URL szerinti borítóképe kerül megjelenítésre.
+
+A „Részletek” gombra kattintáskor egy esemény fut le, amely:
+
+Paraméterként megkapja a kiválasztott könyv azonosítóját.
+Az azonosítót a csatolt függvény a konzolon ellenőrzi.

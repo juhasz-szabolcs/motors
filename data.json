@@ -1,77 +1,76 @@
 {
-    "motorcycles": [
-      {
-        "id": 1,
-        "brand": "Yamaha",
-        "model": "MT-07",
-        "year": 2023,
-        "engine": "689cc",
-        "type": "Naked",
-        "image": "https://i.imgur.com/B3sf2A2.jpeg"
-      },
-      {
-        "id": 2,
-        "brand": "Honda",
-        "model": "CBR500R",
-        "year": 2022,
-        "engine": "471cc",
-        "type": "Sport",
-        "image": "https://i.imgur.com/mUN4gfy.png"
-      },
-      {
-        "id": 3,
-        "brand": "Kawasaki",
-        "model": "Ninja 650",
-        "year": 2023,
-        "engine": "649cc",
-        "type": "Sport",
-        "image": "https://i.imgur.com/lSoJqer.png"
-      },
-      {
-        "id": 4,
-        "brand": "Ducati",
-        "model": "Panigale V4",
-        "year": 2023,
-        "engine": "1103cc",
-        "type": "Superbike",
-        "image": "https://i.imgur.com/PVZbA7H.png"
-      },
-      {
-        "id": 5,
-        "brand": "BMW",
-        "model": "R 1250 GS",
-        "year": 2023,
-        "engine": "1254cc",
-        "type": "Adventure",
-        "image": "https://i.imgur.com/Ai4l8yT.jpeg"
-      },
-      {
-        "id": 6,
-        "brand": "Suzuki",
-        "model": "GSX-S750",
-        "year": 2021,
-        "engine": "749cc",
-        "type": "Naked",
-        "image": "https://i.imgur.com/2XuKFaL.jpeg"
-      },
-      {
-        "id": 7,
-        "brand": "KTM",
-        "model": "1290 Super Duke R",
-        "year": 2023,
-        "engine": "1301cc",
-        "type": "Naked",
-        "image": "https://i.imgur.com/LksHXMd.jpeg"
-      },
-      {
-        "id": 8,
-        "brand": "Triumph",
-        "model": "Tiger 900 Rally Pro",
-        "year": 2022,
-        "engine": "888cc",
-        "type": "Adventure",
-        "image": "https://i.imgur.com/NcmqUW3.jpeg"
-      }
-    ]
+  "books": [
+    {
+      "id": 1,
+      "title": "Az alkimista",
+      "author": "Paulo Coelho",
+      "cover": "https://covers.openlibrary.org/b/isbn/0061122416-M.jpg",
+      "description": "Egy fiatal pásztorfiú spirituális utazása az álmai beteljesítéséhez – egy modern mese az élet értelméről.",
+      "isbn": "0061122416",
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "title": "A Gyűrűk Ura",
+      "author": "J.R.R. Tolkien",
+      "cover": "https://covers.openlibrary.org/b/isbn/0618640150-M.jpg",
+      "description": "Egy epikus fantasy történet a Jó és a Gonosz harcáról Középfölde világában – legendás kaland és barátság története.",
+      "isbn": "0618640150",
+      "rating": 4.8
+    },
+    {
+      "id": 3,
+      "title": "1984",
+      "author": "George Orwell",
+      "cover": "https://covers.openlibrary.org/b/isbn/0451524934-M.jpg",
+      "description": "Egy disztópikus regény a totális megfigyelés és elnyomás világáról – figyelmeztetés a jövő számára.",
+      "isbn": "0451524934",
+      "rating": 4.6
+    },
+    {
+      "id": 4,
+      "title": "Harry Potter és a bölcsek köve",
+      "author": "J.K. Rowling",
+      "cover": "https://covers.openlibrary.org/b/isbn/0439554934-M.jpg",
+      "description": "Az ifjú varázslótanonc első évét követhetjük nyomon a Roxfort Boszorkány- és Varázslóképző Iskolában.",
+      "isbn": "0439554934",
+      "rating": 4.7
+    },
+    {
+      "id": 5,
+      "title": "A kis herceg",
+      "author": "Antoine de Saint-Exupéry",
+      "cover": "https://covers.openlibrary.org/b/isbn/0156012197-M.jpg",
+      "description": "Lírai mese a szeretetről, barátságról és az emberi kapcsolatok fontosságáról – felnőtteknek is szóló tanmese.",
+      "isbn": "0156012197",
+      "rating": 4.9
+    },
+    {
+      "id": 6,
+      "title": "A Da Vinci-kód",
+      "author": "Dan Brown",
+      "cover": "https://covers.openlibrary.org/b/isbn/0307474275-M.jpg",
+      "description": "Lélegzetelállító thriller, mely az egyház titkai körül bontakozik ki, történelmi utalásokkal átszőve.",
+      "isbn": "0307474275",
+      "rating": 4.2
+    },
+    {
+      "id": 7,
+      "title": "Büszkeség és balítélet",
+      "author": "Jane Austen",
+      "cover": "https://covers.openlibrary.org/b/isbn/0141439513-M.jpg",
+      "description": "Egy klasszikus romantikus történet előítéletről, társadalmi rangról és szerelemről a 19. századi Angliában.",
+      "isbn": "0141439513",
+      "rating": 4.4
+    },
+    {
+      "id": 8,
+      "title": "A három test problémája",
+      "author": "Cixin Liu",
+      "cover": "https://covers.openlibrary.org/b/isbn/0765382032-M.jpg",
+      "description": "Kínai sci-fi mestermű, amely egy idegen civilizációval való kapcsolatfelvétel lehetőségeit tárja fel.",
+      "isbn": "0765382032",
+      "rating": 4.3
+    }
+  ]
 }
-  
