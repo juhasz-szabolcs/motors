@@ -1,0 +1,5 @@
+npm create vue@latest
+
+npm install bootstrap @popperjs/core json-server
+npx json-server --watch data.json
+

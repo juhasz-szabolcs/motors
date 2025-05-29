@@ -1,0 +1,77 @@
+{
+    "motorcycles": [
+      {
+        "id": 1,
+        "brand": "Yamaha",
+        "model": "MT-07",
+        "year": 2023,
+        "engine": "689cc",
+        "type": "Naked",
+        "image": "https://i.imgur.com/B3sf2A2.jpeg"
+      },
+      {
+        "id": 2,
+        "brand": "Honda",
+        "model": "CBR500R",
+        "year": 2022,
+        "engine": "471cc",
+        "type": "Sport",
+        "image": "https://i.imgur.com/mUN4gfy.png"
+      },
+      {
+        "id": 3,
+        "brand": "Kawasaki",
+        "model": "Ninja 650",
+        "year": 2023,
+        "engine": "649cc",
+        "type": "Sport",
+        "image": "https://i.imgur.com/lSoJqer.png"
+      },
+      {
+        "id": 4,
+        "brand": "Ducati",
+        "model": "Panigale V4",
+        "year": 2023,
+        "engine": "1103cc",
+        "type": "Superbike",
+        "image": "https://i.imgur.com/PVZbA7H.png"
+      },
+      {
+        "id": 5,
+        "brand": "BMW",
+        "model": "R 1250 GS",
+        "year": 2023,
+        "engine": "1254cc",
+        "type": "Adventure",
+        "image": "https://i.imgur.com/Ai4l8yT.jpeg"
+      },
+      {
+        "id": 6,
+        "brand": "Suzuki",
+        "model": "GSX-S750",
+        "year": 2021,
+        "engine": "749cc",
+        "type": "Naked",
+        "image": "https://i.imgur.com/2XuKFaL.jpeg"
+      },
+      {
+        "id": 7,
+        "brand": "KTM",
+        "model": "1290 Super Duke R",
+        "year": 2023,
+        "engine": "1301cc",
+        "type": "Naked",
+        "image": "https://i.imgur.com/LksHXMd.jpeg"
+      },
+      {
+        "id": 8,
+        "brand": "Triumph",
+        "model": "Tiger 900 Rally Pro",
+        "year": 2022,
+        "engine": "888cc",
+        "type": "Adventure",
+        "image": "https://i.imgur.com/NcmqUW3.jpeg"
+      }
+    ]
+}
+  
