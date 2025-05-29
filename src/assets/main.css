@@ -3,9 +3,28 @@ body {
   min-width: 320px;
   min-height: 100vh;
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  background-color: #f8f9fa;
+  background-color: #23272b;
 }
 
 .card {
   padding: 2em;
+  margin-bottom: 2em;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-img-top {
+  max-height: 180px;
+  width: auto;
+  object-fit: contain;
+  margin: 0 auto 1em auto;
+  display: block;
+}
+
+.main-content {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
 }
